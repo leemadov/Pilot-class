@@ -1,0 +1,34 @@
+<form id="form">
+    <div class="field">
+      <label for="to_name">שם הילד</label>
+      <input type="text" name="to_name" id="to_name">
+    </div>
+    <div class="field">
+      <label for="message">מספר טלפון ההורים</label>
+      <input type="text" name="message" id="message">
+    </div>
+    <div class="field">
+      <label for="Elon_Musk">יום מועדף לחוג</label>
+      <input type="text" name="Elon_Musk" id="Elon_Musk">
+    </div>
+    <div class="field">
+        <label for="email">אימייל ההורים</label>
+        <input type="text" name="email" id="email">
+      </div>
+      <div class="field">
+        <label for="class">כיתת הילד</label>
+        <input type="text" name="class" id="class">
+      </div>
+  
+    <input type="submit" id="button" value="שליחת הודעה" >
+  </form>
+  <a href="index.html">חזרה לדף הבית</a>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('5RWjtZ9Y3OBTaHSkD')
+  </script>
+  <script src="sent.js"></script>
+  <link rel="stylesheet" href="sent.css">
+  <title>הצטרפות לחוג</title>

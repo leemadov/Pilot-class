@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: black 0px 0px 15px;
+    border-radius: 10px;
+}
+
+section {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #3498db;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: gray 0px 0px 20px;
+    font-size: 25px;
+}
+
+.join-btn {
+    color: #3498db;
+    font-size: 30px;
+}

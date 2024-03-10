@@ -9,7 +9,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
-    box-shadow: black 0px 0px 15px;
+    box-shadow: black 0px 0px 10px;
     border-radius: 10px;
 }
 
@@ -26,11 +26,11 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: gray 0px 0px 20px;
+    box-shadow: gray 0px 0px 50px;
     font-size: 25px;
 }
 
